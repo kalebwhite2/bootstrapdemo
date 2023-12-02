@@ -1,62 +1,227 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel='stylesheet' href='/static/styles.css'>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/static/styles.css" />
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
 
-    <h1> Quiz: The Best Movies Ever Made </h1>
-    <hr>
+    <h1>Quiz: The Best Movies Ever Made</h1>
+    <hr />
     <div class="card card-styling">
-      <h2> Where does the green scrolling text in the movie "The Matrix" come from? </h2>
+      <h2>
+        Where does the green scrolling text in the movie "The Matrix" come from?
+      </h2>
       <ul>
-        <li> Greek Tragedies </li>
-        <li> Sushi Recipes </li>
-        <li> Beer Bottle Labels </li>
-        <li> Names of Fruits and Vegetables </li>
-        <li> Lists of US Highway Signs </li>
+        <div class="options">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="gt"
+        /><label class="form-check-label" for="gt">Greek Tragedies </label>
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="sr"
+          /><label class="form-check-label" for="sr">Sushi Recipes</label>
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="bb"
+          /><label class="form-check-label" for="bb">Beer Bottle Labels</label>
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="nfv"
+          /><label class="form-check-label" for="nfv"
+            >Names of Fruits and Vegetables</label
+          >
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="luhs"
+          /><label class="form-check-label" for="luhs"
+            >Lists of US Highway Signs</label
+          >
+        </div>
       </ul>
-      <h2> Which of these two movies/shows started form the same script? </h2>
+      <h2>Which of these two movies/shows started form the same script?</h2>
       <ul>
-        <li> ET and Poltergeist </li>
-        <li> Ratatouille and Chef </li>
-        <li> Snakes on a Plane and Airplane! </li>
-        <li> Star Wars and various Star Trek episodes </li>
-        <li> The Boondocks and Family Guy </li>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="ep"
+          /><label class="form-check-label" for="ep">ET and Poltergeist</label>
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="rv"
+          /><label class="form-check-label" for="rc"
+            >Ratatouille and Chef</label
+          >
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="spa"
+          /><label class="form-check-label" for="spa"
+            >Snakes on a Plane and Airplane!</label
+          >
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="swst"
+          /><label class="form-check-label" for="swst"
+            >Star Wars and various Star Trek episodes</label
+          >
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="bfg"
+          /><label class="form-check-label" for="bfg"
+            >The Boondocks and Family Guy</label
+          >
+        </div>
       </ul>
-      <h2> What are the velociraptor noises in Jurassic Park? </h2>
+      <h2>What are the velociraptor noises in Jurassic Park?</h2>
       <ul>
-        <li> Dogs Barking </li>
-        <li> Cats Meowing </li>
-        <li> Tortoises Mating </li>
-        <li> Gooses Hissing </li>
-        <li> Abby saying grrrrr </li>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="db"
+          /><label class="form-check-label" for="db">Dogs Barking</label>
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="cm"
+          /><label class="form-check-label" for="cm">Cats Meowing</label>
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="tm"
+          /><label class="form-check-label" for="tm">Tortoises Mating</label>
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="gh"
+          /><label class="form-check-label" for="gh">Gooses Hissing</label>
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="asg"
+          /><label class="form-check-label" for="asg">Abby saying grrrrr</label>
+        </div>
       </ul>
-      <h2> Which celebrity inspired Christian Bale's performacnce of Patrick Bateman? </h2>
+      <h2>
+        Which celebrity inspired Christian Bale's performacnce of Patrick
+        Bateman?
+      </h2>
       <ul>
-        <li> Tom Cruise </li>
-        <li> John Cena </li>
-        <li> Chris Evans </li>
-        <li> Daniel Radcliffe </li>
-        <li> Brad Pitt </li>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="tc"
+          /><label class="form-check-label" for="tc">Tom Cruise</label>
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="jc"
+          /><label class="form-check-label" for="jc">John Cena</label>
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="ce"
+          /><label class="form-check-label" for="ce">Chris Evans</label>
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="dr"
+          /><label class="form-check-label" for="dr">Daniel Radcliffe</label>
+        </div>
+        <div class="options">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="bp"
+          /><label class="form-check-label" for="bp">Brad Pitt</label>
+        </div>
       </ul>
     </div>
-    <hr>
+    <hr />
     <div class="card card-styling">
       <h3>Sign up for our mailing list!</h3>
       <form>
-        <label for="name">Name</label><br>
-        <input class="form-control" type="text" id="name"><br>
-        <label for="email">Email</label><br>
-        <input class="form-control" type="text" id="email"><br>
+        <label for="name">Name</label><br />
+        <input class="form-control" type="text" id="name" /><br />
+        <label for="email">Email</label><br />
+        <input class="form-control" type="text" id="email" /><br />
         <button>Join the list!</button>
       </form>
     </div>
-
   </body>
 </html>

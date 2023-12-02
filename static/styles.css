@@ -3,3 +3,20 @@
     margin: 10px 20px 10px 20px; 
     padding: 5px 10px 5px 10px;
 }
+
+.options {
+    display: block;
+}
+
+.form-check-label {
+    margin-left: 4px;
+}
+
+.form-check-label span::before {
+    content: "\A";
+    white-space: pre;
+}
+
+h1 {
+    margin: 5px 0 0 5px;
+}
